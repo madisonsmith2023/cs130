@@ -1,3 +1,6 @@
+@import
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@500&family=Source+Code+Pro:ital,wght@0,600;1,400&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -6,15 +9,43 @@ body {
     margin: 0px;
     font-family: Arial, sans-serif;
 }
-header, section {
+header, section{
     padding: 20px;
+    font-family: Source Code Pro;
+    font-weight: 500;
+    background-color: #c0feb8;
+}
+header {
+    background-color: rgb(255, 254, 183);
+}
 }
 p, li {
     line-height: 1.5em;
 }
 
 #inspiration {
-    background-color: #F0F0F0;
-    padding-top: 40px;
+    background-color: #d297ff;
+    padding-top: 30px;
     padding-bottom: 40px;
+    font-family: Anybody;
+}
+
+#homework {
+    background-color: #b8ecfe;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Anybody;
+}
+
+#tutorials {
+    background-color: #c0feb8
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-family: Anybody
+}
+
+ul {
+    font-family: Anybody;
+    font-style: italic;
+    font-weight: 100;
 }
